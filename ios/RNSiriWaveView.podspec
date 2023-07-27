@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
 
 
   s.dependency "React"
+  s.dependency 'SCSiriWaveformView'
+  s.dependency 'PXSiriWave', '0.0.2'
   #s.dependency "others"
 
 end
