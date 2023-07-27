@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   RNSiriWaveView
                    DESC
-  s.homepage     = "https://github.com/hungtranpx/react-native-siri-wave-view.git"
+  s.homepage     = "https://github.com/prscX/react-native-siri-wave-view.git"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
