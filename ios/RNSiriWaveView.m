@@ -52,7 +52,7 @@ RCT_CUSTOM_VIEW_PROPERTY(frequency, NSNumber *, SCSiriWaveformView) {
 }
 
 RCT_CUSTOM_VIEW_PROPERTY(amplitude, NSNumber *, SCSiriWaveformView) {
-    view.idleAmplitude = [json floatValue];
+    [view updateWithLevel:[json floatValue]];
 }
 
 
